@@ -40,7 +40,17 @@ body {
 
 .container {
   display: grid;
-  grid-auto-flow: row;
+  grid-template-columns: repeat(auto-fit, 18rem);
+  grid-auto-rows: 8rem;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+.container__box {
+  background-color: var(--blue-lighter);
+}
+
+.text {
+  background-color: var(--brown-light);
 }
 
 /*# sourceMappingURL=style.css.map */
