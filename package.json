@@ -1,0 +1,28 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "lab2",
+  "main": "index.js",
+  "scripts": {
+    "watch2.1": "sass task2.1/main.scss task2.1/style.css -w",
+    "watch2.2": "sass task2.2/main.scss task2.2/style.css -w",
+    "watch2.3": "sass task2.3/main.scss task2.3/style.css -w",
+    "watch2.4": "sass task2.4/main.scss task2.4/style.css -w",
+    "watch2.5": "sass task2.5/main.scss task2.5/style.css -w",
+    "watch2.6": "sass task2.6/main.scss task2.6/style.css -w",
+    "watch2.7": "sass task2.7/main.scss task2.7/style.css -w",
+    "watch2.8": "sass task2.8/main.scss task2.8/style.css -w",
+    "watch2.9": "sass task2.9/main.scss task2.9/style.css -w",
+    "watch2.10": "sass task2.10/main.scss task2.10/style.css -w",
+    "watch2.11": "sass task2.11/main.scss task2.11/style.css -w",
+    "watch2.12": "sass task2.12/main.scss task2.12/style.css -w",
+    "watch2.13": "sass task2.13/main.scss task2.13/style.css -w",
+    "watch2.14": "sass task2.14/main.scss task2.14/style.css -w",
+    "watch2.15": "sass task2.15/main.scss task2.15/style.css -w"
+  },
+  "author": "Tolibjon Latipov",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.68.0"
+  }
+}

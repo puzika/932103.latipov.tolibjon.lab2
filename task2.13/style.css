@@ -1,0 +1,68 @@
+:root {
+  --green-lighter: #C8FC98;
+  --gray-light: #EAEAEA;
+  --yellow-light: #FFFF80;
+  --yellow-medium: #FDE95E;
+  --red-medium: red;
+  --blue-medium: blue;
+  --green-dark: green;
+  --violet-light: blueviolet;
+  --red-dark: darkred;
+  --brown: peru;
+  --green-medium: forestgreen;
+  --red-light: indianred;
+  --violet-dark: indigo;
+  --white: white;
+  --blue-light: aqua;
+  --brown-light: bisque;
+  --gray-dark: darkgray;
+  --green-light: limegreen;
+  --blue-lighter: aquamarine;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1rem;
+  font-size: 1.6rem;
+}
+
+.container {
+  background-color: var(--blue-light);
+  border: 0.1rem solid var(--green-medium);
+  display: flex;
+  align-items: flex-start;
+}
+.container__list {
+  width: 25%;
+  padding: 2rem 0 2rem 4rem;
+  text-transform: capitalize;
+  background-color: var(--brown-light);
+}
+.container__article {
+  flex: 1;
+  background-color: var(--gray-dark);
+}
+.container__image {
+  float: right;
+  width: 50%;
+}
+
+.float::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*# sourceMappingURL=style.css.map */

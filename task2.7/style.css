@@ -1,0 +1,83 @@
+:root {
+  --green-lighter: #C8FC98;
+  --gray-light: #EAEAEA;
+  --yellow-light: #FFFF80;
+  --yellow-medium: #FDE95E;
+  --red-medium: red;
+  --blue-medium: blue;
+  --green-dark: green;
+  --violet-light: blueviolet;
+  --red-dark: darkred;
+  --brown: peru;
+  --green-medium: forestgreen;
+  --red-light: indianred;
+  --violet-dark: indigo;
+  --white: white;
+  --blue-light: aqua;
+  --brown-light: bisque;
+  --gray-dark: darkgray;
+  --green-light: limegreen;
+  --blue-lighter: aquamarine;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1rem;
+  color: var(--white);
+  font-size: 1.5rem;
+}
+
+.box {
+  width: 15rem;
+  height: 10rem;
+}
+.box--violet {
+  position: static;
+  background-color: var(--violet-light);
+}
+.box--burgundy {
+  position: relative;
+  background-color: var(--red-dark);
+}
+.box--brown {
+  position: relative;
+  background-color: var(--brown);
+  transform: translate(3rem, -3rem);
+}
+.box--pink {
+  position: relative;
+  width: 60rem;
+  height: 40rem;
+  background-color: var(--red-light);
+}
+.box--dark-violet {
+  position: absolute;
+  right: 0;
+  bottom: 5rem;
+  width: 30rem;
+  height: 20rem;
+  background-color: var(--violet-dark);
+}
+.box--green {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--green-medium);
+  z-index: -1;
+}
+
+/*# sourceMappingURL=style.css.map */

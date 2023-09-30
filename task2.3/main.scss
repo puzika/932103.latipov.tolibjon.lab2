@@ -1,0 +1,13 @@
+@import '../variables.scss';
+@import '../reset.scss';
+
+body {
+   font-size: 1.5rem;
+}
+
+.text {
+   width: 55rem;
+   margin: .2rem auto;
+   background-color: var(--blue-medium);
+   color: var(--white);
+}

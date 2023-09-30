@@ -1,0 +1,23 @@
+@import '../variables.scss';
+@import '../reset.scss';
+
+body {
+   font-size: 1.6rem;
+   margin: 1rem;
+}
+
+.article {
+   width: 55rem;
+   margin: 0 auto;
+   background-color: var(--blue-medium);
+
+   &__image {
+      width: 50%;
+      float: right;
+      margin: 0 0 2rem 1rem;
+   }
+
+   &__text {
+      color: var(--white);
+   }
+}

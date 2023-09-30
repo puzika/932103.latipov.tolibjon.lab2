@@ -1,0 +1,12 @@
+@import '../variables.scss';
+@import '../reset.scss';
+
+body {
+   margin: 1rem;
+   font-size: 1.6rem;
+}
+
+.container {
+   display: grid;
+   grid-auto-flow: row;
+}

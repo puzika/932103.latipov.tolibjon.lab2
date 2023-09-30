@@ -1,0 +1,57 @@
+:root {
+  --green-lighter: #C8FC98;
+  --gray-light: #EAEAEA;
+  --yellow-light: #FFFF80;
+  --yellow-medium: #FDE95E;
+  --red-medium: red;
+  --blue-medium: blue;
+  --green-dark: green;
+  --violet-light: blueviolet;
+  --red-dark: darkred;
+  --brown: peru;
+  --green-medium: forestgreen;
+  --red-light: indianred;
+  --violet-dark: indigo;
+  --white: white;
+  --blue-light: aqua;
+  --brown-light: bisque;
+  --gray-dark: darkgray;
+  --green-light: limegreen;
+  --blue-lighter: aquamarine;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.text {
+  color: var(--white);
+  width: 33.3%;
+}
+.text--green {
+  background-color: var(--green-medium);
+  margin: 2rem 0;
+}
+.text--blue {
+  box-sizing: content-box;
+  background-color: var(--blue-medium);
+  padding: 5rem;
+}
+
+/*# sourceMappingURL=style.css.map */

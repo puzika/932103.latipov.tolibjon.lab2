@@ -1,0 +1,51 @@
+:root {
+  --green-lighter: #C8FC98;
+  --gray-light: #EAEAEA;
+  --yellow-light: #FFFF80;
+  --yellow-medium: #FDE95E;
+  --red-medium: red;
+  --blue-medium: blue;
+  --green-dark: green;
+  --violet-light: blueviolet;
+  --red-dark: darkred;
+  --brown: peru;
+  --green-medium: forestgreen;
+  --red-light: indianred;
+  --violet-dark: indigo;
+  --white: white;
+  --blue-light: aqua;
+  --brown-light: bisque;
+  --gray-dark: darkgray;
+  --green-light: limegreen;
+  --blue-lighter: aquamarine;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--blue-light);
+  border: 0.1rem solid black;
+}
+.container__image {
+  height: 25rem;
+}
+
+/*# sourceMappingURL=style.css.map */

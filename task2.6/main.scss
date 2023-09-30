@@ -1,0 +1,22 @@
+@import '../variables.scss';
+@import '../reset.scss';
+
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 1.6rem;
+}
+
+.text {
+   width: 33.3%;
+
+   &--borderless {
+      margin: 2rem 0;
+   }
+
+   &--border {
+      padding: 5rem;
+      border: 1rem solid var(--blue-medium);
+   }
+}

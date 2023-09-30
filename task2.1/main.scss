@@ -1,0 +1,46 @@
+@import '../variables.scss';
+@import '../reset.scss';
+
+body {
+   font-size: 1.5rem;
+}
+
+.header {
+   padding: .5rem .8rem 4rem;
+   background-color: var(--gray-light);
+
+   &__heading {
+      font-size: 2.8rem;
+      text-transform: capitalize;
+   }
+}
+
+main {
+   display: flex;
+}
+
+.content {
+   padding: .2rem 1rem;
+
+   &--left {
+      width: 20rem;
+      background-color: var(--green-lighter);
+   }
+
+   &--main {
+      flex: 1;
+   }
+
+   &__heading {
+      text-transform: capitalize;
+   }
+
+   &__text {
+      line-height: 150%;
+   }
+}
+
+.highlighted {
+   color: var(--red-medium);
+   font-style: italic;
+}

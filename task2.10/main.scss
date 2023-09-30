@@ -1,0 +1,21 @@
+@import '../variables.scss';
+@import '../reset.scss';
+
+body {
+   font-size: 1.6rem;
+   margin: 1rem;
+}
+
+.floated {
+   width: 20rem;
+   height: 10rem;
+   float: left;
+   margin: 2rem;
+   background-color: var(--blue-lighter);
+}
+
+.cleared {
+   clear: left;
+   background-color: var(--brown-light);
+}
+

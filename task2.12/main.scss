@@ -1,0 +1,36 @@
+@import '../variables.scss';
+@import '../reset.scss';
+
+body {
+   font-size: 1.6rem;
+   margin: 1rem;
+}
+
+.container {
+   background-color: var(--blue-light);
+   border: .1rem solid var(--green-medium);
+
+   &::after {
+      content: '';
+      clear: both;
+      display: table;
+   }
+
+   & > * {
+      float: left;
+      margin-right: .8rem;
+   }
+
+   &__list {
+      width: 24%;
+      background-color: var(--brown-light);
+      padding: 2rem 0 2rem 4rem;
+      text-transform: capitalize;
+   }
+
+   &__text {
+      width: 75%;
+      background-color: var(--gray-dark);
+      margin: 0;
+   }
+}

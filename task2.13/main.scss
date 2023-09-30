@@ -1,0 +1,39 @@
+@import '../variables.scss';
+@import '../reset.scss';
+
+body {
+   margin: 1rem;
+   font-size: 1.6rem;
+}
+
+.container {
+   background-color: var(--blue-light);
+   border: .1rem solid var(--green-medium);
+   display: flex;
+   align-items: flex-start;
+
+   &__list {
+      width: 25%;
+      padding: 2rem 0 2rem 4rem;
+      text-transform: capitalize;
+      background-color: var(--brown-light);
+   }
+
+   &__article {
+      flex: 1;
+      background-color: var(--gray-dark);
+   }
+
+   &__image {
+      float: right;
+      width: 50%;
+   }
+}
+
+.float {
+   &::after {
+      content: '';
+      clear: both;
+      display: table;
+   }
+}
