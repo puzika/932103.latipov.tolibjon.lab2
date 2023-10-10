@@ -41,26 +41,23 @@ body {
 .container {
   background-color: var(--blue-light);
   border: 0.1rem solid var(--green-medium);
-}
-.container::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.container > * {
-  float: left;
-  margin-right: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 .container__list {
-  width: 24%;
+  width: 25%;
   background-color: var(--brown-light);
   padding: 2rem 0 2rem 4rem;
   text-transform: capitalize;
 }
 .container__text {
-  width: 75%;
+  flex: 1;
+  min-width: 40rem;
   background-color: var(--gray-dark);
-  margin: 0;
+}
+.container > * {
+  margin-right: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
